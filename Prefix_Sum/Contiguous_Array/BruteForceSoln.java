@@ -1,6 +1,6 @@
 package Contiguous_Array;
 
-public class BruteForceSolution {
+public class BruteForceSoln {
     public static void main(String[] args) {
         int[] nums = {0,1,1,1,1,1,0,0,0};
 
@@ -23,7 +23,7 @@ public class BruteForceSolution {
         }
         System.out.println(i+j);
 
-        // Solution:
+        // Dry Run: Contigous Array
         // Idx-  0 1 2 3 4 5 6
         // Eg.   1 0 1 1 0 1 1 
 

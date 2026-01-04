@@ -3,7 +3,7 @@ package Longest_Substring_Without_Repeating_Characters;
 import java.util.HashSet;
 import java.util.Set;
 
-public class OptimalSolution {
+public class OptimalSoln {
     public static void main(String[] args) {
         String s = "abccaccd";
         if(s.length()<2){
@@ -27,5 +27,7 @@ public class OptimalSolution {
             }
         }
         System.out.println(result);
+
+        // Problem Link: https://leetcode.com/problems/longest-substring-without-repeating-characters
     }
 }

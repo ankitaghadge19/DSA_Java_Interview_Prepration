@@ -1,11 +1,12 @@
 package Longest_Consecutive_Sequence;
-class BruteForceSolution {
+
+class BruteForceSoln {
     public static void main(String[] args) {
         int[] nums = {1, 1, 2, 3, 4, 5, 6};
         int result = longestConsecutive(nums);
         System.out.println(result);
     }
-    public static int longestConsecutive(int[] nums) {
+    private static int longestConsecutive(int[] nums) {
         if(nums.length == 0) return 0;
         int longest = 1;
         for(int i=0; i<nums.length; i++){

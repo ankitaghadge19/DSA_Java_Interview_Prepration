@@ -3,7 +3,7 @@ package Longest_Substring_Without_Repeating_Characters;
 import java.util.HashSet;
 import java.util.Set;
 
-class BruteForceSolution{
+class BruteForceSoln{
     public static void main(String[] args) {
         String s = "abcdefg";
 

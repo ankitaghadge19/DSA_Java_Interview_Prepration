@@ -3,7 +3,7 @@ package Contiguous_Array;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OptimalSolution {
+public class OptimalSoln {
     public static void main(String[] args) {
         int[] nums = {0,0,1,0,0,0,1,1};
         int maxLen = 0;
@@ -31,7 +31,7 @@ public class OptimalSolution {
         }
         System.out.println(maxLen);
  
-        // Solution:
+        // Dry Run: Contigous Array
         // Idx: 0   1   2   3   4   5   6   7
         // Eg.  0   0   1   0   0   0   1   1
         //     -1  -1   1  -1  -1  -1   1   1 (Replace 0 by -1)
@@ -47,5 +47,7 @@ public class OptimalSolution {
         // This means that between index 0 and index 2, the same number of 0's were subtracted and 1's were added, 
         // resulting in no net change in the sum.
         // length = 2 - 0 = 2
+
+        // Problem Link: https://leetcode.com/problems/contiguous-array
     }
 }

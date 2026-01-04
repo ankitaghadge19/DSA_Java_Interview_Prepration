@@ -1,6 +1,4 @@
-package Number_Of_Zero_Filled_Subarrays;
-
-public class OptimalSolution {
+public class OptimalSoln {
     public static void main(String[] args) {
         int[] nums = {1,3,0,0,2,0,0,4};
         // Output: 6
@@ -34,6 +32,6 @@ public class OptimalSolution {
         result = result + ((n*(n+1))/2);
         System.out.println(result);
 
-        // Link: https://leetcode.com/problems/number-of-zero-filled-subarrays/description/
-    }
+        // Link: https://leetcode.com/problems/number-of-zero-filled-subarrays
+    }  
 }
