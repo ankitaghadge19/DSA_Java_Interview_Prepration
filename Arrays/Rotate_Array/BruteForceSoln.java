@@ -22,7 +22,7 @@ public class BruteForceSoln {
         }
         Arrays.stream(nums).forEach(x -> System.out.println(x));
 
-        // TC: 0(1)
-        // SC: 0(N^2)
+        // TC: 0(N^2)
+        // SC: 0(1)
     }
 }
