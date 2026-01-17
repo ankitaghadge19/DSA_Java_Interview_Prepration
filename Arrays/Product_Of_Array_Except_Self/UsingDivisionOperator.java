@@ -1,5 +1,3 @@
-package Arrays.Product_Of_Array_Except_Self;
-
 import java.util.Arrays;
 
 public class UsingDivisionOperator {

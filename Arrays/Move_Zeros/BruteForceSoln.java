@@ -1,5 +1,3 @@
-package Arrays.Move_Zeros;
-
 import java.util.Arrays;
 
 public class BruteForceSoln {

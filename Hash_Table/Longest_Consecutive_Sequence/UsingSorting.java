@@ -1,5 +1,3 @@
-package Longest_Consecutive_Sequence;
-
 import java.util.Arrays;
 
 public class UsingSorting {

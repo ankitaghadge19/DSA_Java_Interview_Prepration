@@ -1,5 +1,3 @@
-package Arrays.Rotate_Array;
-
 import java.util.Arrays;
 
 public class OptimalSolnUsingReverse {

@@ -1,6 +1,3 @@
-package Longest_Consecutive_Sequence;
-
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
