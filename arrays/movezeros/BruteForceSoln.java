@@ -1,7 +1,8 @@
+package arrays.movezeros;
 import java.util.Arrays;
 
 public class BruteForceSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {1,0,1};  
 
         int n = nums.length;

@@ -1,8 +1,9 @@
+package hashtable.longestconsecutivesequence;
 import java.util.HashSet;
 import java.util.Set;
 
 public class OptimalSolnUsingHashSet {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {100,4,200,1,3,2,4,100};
         int result = longestConsecutiveSequence(nums);
         System.out.println(result);

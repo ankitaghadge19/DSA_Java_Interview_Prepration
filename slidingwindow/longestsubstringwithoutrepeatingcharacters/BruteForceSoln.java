@@ -1,9 +1,12 @@
+package slidingwindow.longestsubstringwithoutrepeatingcharacters;
+
 import java.util.HashSet;
 import java.util.Set;
 
-public class OptimalSoln {
-    public static void main(String[] args) {
-        String s = "abccaccd";
+class BruteForceSoln{
+    public static void main() {
+        String s = "abcdefg";
+
         if(s.length()<2){
             System.out.println(0);
         }
@@ -17,15 +20,19 @@ public class OptimalSoln {
             char currentChar = s.charAt(j);
             if(!temp.contains(currentChar)){
                 temp.add(currentChar);
-                result = Math.max(temp.size(), result);
                 j++;
             }else{
-                temp.remove(s.charAt(i));
-                i++;
+                i=i+1;
+                j=i;
+                if(temp.size() > result){
+                    result = temp.size();
+                }
+                temp.clear();
             }
         }
+        if(temp.size() > result){
+            result = temp.size();
+        }
         System.out.println(result);
-
-        // Problem Link: https://leetcode.com/problems/longest-substring-without-repeating-characters
     }
 }

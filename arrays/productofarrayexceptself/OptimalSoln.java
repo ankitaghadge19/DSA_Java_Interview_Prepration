@@ -1,7 +1,8 @@
+package arrays.productofarrayexceptself;
 import java.util.Arrays;
 
 public class OptimalSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {1, 2, 3, 4};
         int n = nums.length;
         int[] prefix = new int[n];

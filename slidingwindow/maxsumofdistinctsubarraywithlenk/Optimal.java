@@ -3,7 +3,7 @@ package slidingwindow.maxsumofdistinctsubarraywithlenk;
 import java.util.HashMap;
 
 public class Optimal {
-    public static void main(String[] args) {
+    public static void main() {
                 //     0  1  2  3  4  5  6
         int[] nums = { 1, 5, 4, 2, 9, 9, 9 };
         int k = 3;
@@ -11,22 +11,22 @@ public class Optimal {
         HashMap<Integer, Integer> count = new HashMap<>();
         long finalSum = 0;
         long sum = 0;
-        int b = 0;
+        int start = 0;
 
-        for (int e = 0; e < nums.length; e++) {
-            sum = sum + nums[e];
-            count.put(nums[e], count.getOrDefault(nums[e], 0) + 1);
+        for (int end = 0; end < nums.length; end++) {
+            sum = sum + nums[end];
+            count.put(nums[end], count.getOrDefault(nums[end], 0) + 1);
 
-            if ((e - b + 1) > k) {
-                sum = sum - nums[b];
-                count.put(nums[b], count.getOrDefault(nums[b], 0) - 1);
-                if (count.get(nums[b]) == 0) {
-                    count.remove(nums[b]);
+            if ((end - start + 1) > k) {
+                sum = sum - nums[start];
+                count.put(nums[start], count.getOrDefault(nums[start], 0) - 1);
+                if (count.get(nums[start]) == 0) {
+                    count.remove(nums[start]);
                 }
-                b++;
+                start++;
             }
             
-            if (((e - b + 1) == k) && (count.size() == k)) {
+            if (((end - start + 1) == k) && (count.size() == k)) {
                 finalSum = Math.max(finalSum, sum);
             }
         }
@@ -35,3 +35,6 @@ public class Optimal {
 }
 
 // HashSet -> [1 1 2 3] (How to handle this case?)
+// TC: O(N)
+// SC: O(K)
+// Problem Link: https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/

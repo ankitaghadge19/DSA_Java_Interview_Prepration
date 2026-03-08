@@ -1,7 +1,8 @@
+package arrays.productofarrayexceptself;
 import java.util.Arrays;
 
 public class BruteForceSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {-1,1,0,-3,3};
         int[] result = new int[nums.length];
         for(int i=0; i<nums.length; i++){

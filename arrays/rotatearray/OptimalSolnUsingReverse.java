@@ -1,7 +1,8 @@
+package arrays.rotatearray;
 import java.util.Arrays;
 
 public class OptimalSolnUsingReverse {
-    public static void main(String[] args) {
+    public static void main() {
         
               //Idx:  0  1  2  3  4  5      -> Ans: 4 5 6 1 2 3
         int[] nums = {1, 2, 3, 4, 5, 6};

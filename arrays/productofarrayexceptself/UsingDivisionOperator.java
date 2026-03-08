@@ -1,7 +1,8 @@
+package arrays.productofarrayexceptself;
 import java.util.Arrays;
 
 public class UsingDivisionOperator {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = { -1, 1, 0, -3, 3 };
         int len = nums.length;
         int[] result = new int[len];

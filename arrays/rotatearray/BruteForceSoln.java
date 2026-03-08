@@ -1,7 +1,8 @@
+package arrays.rotatearray;
 import java.util.Arrays;
 
 public class BruteForceSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int k=3;
             //Idx:  0  1  2  3  4  5
         int[] nums = {1, 2, 3, 4, 5, 6};

@@ -1,5 +1,6 @@
+package bit.addbinary;
 public class AddBinary {
-    public static void main(String[] args) {
+    public static void main() {
         String a = "11";
         String b = "1";
 

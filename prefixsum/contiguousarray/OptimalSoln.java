@@ -1,8 +1,9 @@
+package prefixsum.contiguousarray;
 import java.util.HashMap;
 import java.util.Map;
 
 public class OptimalSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {0,0,1,0,0,0,1,1};
         int maxLen = 0;
         //Replace 0 by -1

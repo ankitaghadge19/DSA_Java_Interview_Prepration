@@ -1,5 +1,6 @@
+package prefixsum.contiguousarray;
 public class BruteForceSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {0,1,1,1,1,1,0,0,0};
 
         int i=0; 

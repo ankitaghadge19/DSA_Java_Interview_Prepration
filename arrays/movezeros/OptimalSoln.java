@@ -1,5 +1,6 @@
+package arrays.movezeros;
 public class OptimalSoln {
-    public static void main(String[] args) {
+    public static void main() {
         int[] nums = {0,1,0,3,12};
 
         int l=0;

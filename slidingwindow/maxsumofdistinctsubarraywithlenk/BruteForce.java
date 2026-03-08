@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BruteForce {
-    public static void main(String[] args) {
-                //     0  1  2  3  4  5  6
+    public static void main() {
+        //     0  1  2  3  4  5  6
         int[] nums = { 1, 5, 4, 2, 9, 9, 9 };
         int k = 3;
         Set<Integer> count = new HashSet<>();
@@ -25,3 +25,6 @@ public class BruteForce {
         System.out.println("Max sum of distinct sub array: " + finalSum);
     }
 }
+
+// TC: O(N^2)
+// SC: O(K)
