@@ -27,6 +27,7 @@ public class Optimal {
         System.out.println(finalLen);
     }
 }
+
 // TC: O(N) -> start and end pointer moves 0 to n-1, start never resets or move backward
 // SC: O(1)
 // Problem Link: https://leetcode.com/problems/minimum-size-subarray-sum
