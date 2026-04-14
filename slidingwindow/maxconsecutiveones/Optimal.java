@@ -2,7 +2,7 @@ package slidingwindow.maxconsecutiveones;
 
 public class Optimal {
     public static void main(String[] args) {
-        //    0  1  2  3  4  5  6  7  8  9  10
+                 //    0  1  2  3  4  5  6  7  8  9  10
         int[] nums = { 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0 };
         int k = 2;
         int zeros = 0;

@@ -16,7 +16,6 @@ public class BruteForce {
                 if (avg > result) {
                     result = avg;
                 }
-
             }
             System.out.println(result);
         }       
