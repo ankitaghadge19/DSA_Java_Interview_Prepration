@@ -1,4 +1,4 @@
-package slidingwindow.longestrepeatingcharacterreplacement;
+package slidingwindow.dynamicsize.longestrepeatingcharacterreplacement;
 
 import java.util.Collections;
 import java.util.HashMap;

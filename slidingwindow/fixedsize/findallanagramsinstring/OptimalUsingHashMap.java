@@ -1,4 +1,4 @@
-package slidingwindow.findallanagramsinstring;
+package slidingwindow.fixedsize.findallanagramsinstring;
 
 import java.util.ArrayList;
 import java.util.HashMap;

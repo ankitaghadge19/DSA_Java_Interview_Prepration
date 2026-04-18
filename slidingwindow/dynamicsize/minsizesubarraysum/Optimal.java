@@ -1,4 +1,4 @@
-package slidingwindow.minsizesubarraysum;
+package slidingwindow.dynamicsize.minsizesubarraysum;
 
 public class Optimal {
     public static void main() {

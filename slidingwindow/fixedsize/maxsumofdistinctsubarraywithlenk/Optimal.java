@@ -1,4 +1,4 @@
-package slidingwindow.maxsumofdistinctsubarraywithlenk;
+package slidingwindow.fixedsize.maxsumofdistinctsubarraywithlenk;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package slidingwindow.maxconsecutiveones;
+package slidingwindow.dynamicsize.maxconsecutiveones;
 
 public class Optimal {
     public static void main(String[] args) {

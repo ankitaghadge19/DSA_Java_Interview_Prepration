@@ -1,4 +1,4 @@
-package slidingwindow.maxaveragesubarray;
+package slidingwindow.fixedsize.maxaveragesubarray;
 
 public class BruteForce {
         public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package slidingwindow.minsizesubarraysum;
+package slidingwindow.dynamicsize.minsizesubarraysum;
 
 public class BruteForce {
     public static void main() {
