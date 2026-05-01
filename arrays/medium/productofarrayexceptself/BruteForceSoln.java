@@ -1,4 +1,4 @@
-package arrays.productofarrayexceptself;
+package arrays.medium.productofarrayexceptself;
 import java.util.Arrays;
 
 public class BruteForceSoln {

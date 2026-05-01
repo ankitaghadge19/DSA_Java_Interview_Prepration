@@ -1,4 +1,4 @@
-package arrays.movezeros;
+package arrays.easy.movezeros;
 public class OptimalSoln {
     public static void main() {
         int[] nums = {0,1,0,3,12};

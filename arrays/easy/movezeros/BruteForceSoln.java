@@ -1,4 +1,4 @@
-package arrays.movezeros;
+package arrays.easy.movezeros;
 import java.util.Arrays;
 
 public class BruteForceSoln {

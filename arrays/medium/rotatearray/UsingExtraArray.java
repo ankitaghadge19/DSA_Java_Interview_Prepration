@@ -1,4 +1,4 @@
-package arrays.rotatearray;
+package arrays.medium.rotatearray;
 import java.util.Arrays;
 
 public class UsingExtraArray {
