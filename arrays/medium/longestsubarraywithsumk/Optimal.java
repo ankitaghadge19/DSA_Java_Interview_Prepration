@@ -19,7 +19,7 @@ public class Optimal {
             if (prefixSumMap.containsKey(sum - k)) {
                 len = Math.max(len, i - prefixSumMap.get(sum - k));
             }
-            
+
             //Eg. { 5, -2, 2, 3 }, Prefix sum 5 occurs twice -> Use first occurance
             if (!prefixSumMap.containsKey(sum)) {
                 prefixSumMap.put(sum, i);
@@ -30,9 +30,9 @@ public class Optimal {
 }
 
 // Approach:
-// Eg.
+// Eg. { 2, 3, 2, 5, 7, 1 }
 // k = 15
- 
+
 // 0   1   2   3   4   5
 // |---------20--------|
 // 2 + 3 + 2 + 5 + 7 + 1 = 20 = x, 
@@ -67,5 +67,3 @@ public class Optimal {
 // SC: O(N)
 
 // Problem Link: https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
-
-
