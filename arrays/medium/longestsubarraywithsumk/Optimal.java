@@ -4,28 +4,28 @@ import java.util.HashMap;
 
 public class Optimal {
     public static void main(String[] args) {
-        //   0   1  2  3  4   5
+                   //   0   1  2  3  4   5
         int[] nums = { 10, 5, 2, 7, 1, -10 };
         int k = 15;
-        int len = 0;
+        int maxLen = 0;
         HashMap<Integer, Integer> prefixSumMap = new HashMap<>();
 
-        int sum = 0;
+        int currentPrefixSum = 0;
         for (int i = 0; i < nums.length; i++) {
-            sum = sum + nums[i];
-            if (sum == k) {
-                len = Math.max(len, i + 1);
+            currentPrefixSum = currentPrefixSum + nums[i];
+            if (currentPrefixSum == k) {
+                maxLen = Math.max(maxLen, i + 1);
             }
-            if (prefixSumMap.containsKey(sum - k)) {
-                len = Math.max(len, i - prefixSumMap.get(sum - k));
+            if (prefixSumMap.containsKey(currentPrefixSum - k)) {
+                maxLen = Math.max(maxLen, i - prefixSumMap.get(currentPrefixSum - k));
             }
 
             //Eg. { 5, -2, 2, 3 }, Prefix sum 5 occurs twice -> Use first occurance
-            if (!prefixSumMap.containsKey(sum)) {
-                prefixSumMap.put(sum, i);
+            if (!prefixSumMap.containsKey(currentPrefixSum)) {
+                prefixSumMap.put(currentPrefixSum, i);
             }
         }
-        System.out.println(len);
+        System.out.println(maxLen);
     }
 }
 
