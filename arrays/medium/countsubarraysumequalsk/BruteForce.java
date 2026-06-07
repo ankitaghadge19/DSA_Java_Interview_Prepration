@@ -1,4 +1,4 @@
-package arrays.medium.countsuarraysumequalsk;
+package arrays.medium.countsubarraysumequalsk;
 
 import java.util.HashMap;
 
