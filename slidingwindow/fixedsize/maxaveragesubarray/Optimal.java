@@ -24,6 +24,6 @@ public class Optimal {
     }
 }
 
-// Problem Link: https://algomaster.io/practice/dsa/maximum-average-subarray
+// Problem Link: https://leetcode.com/problems/maximum-average-subarray-i/description/
 // SC: O(1)
 // TC: O(N)
