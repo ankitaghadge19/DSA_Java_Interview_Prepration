@@ -1,4 +1,4 @@
-Array:
+********************************Arrays********************************** 
 
 Count subarray sum equal k (+ve/-ve) -> Prefix Sum
 Count subarray sum equal k (+ve) -> Sliding Window -> pending
@@ -36,8 +36,9 @@ Product of array except self -> Prefix Suffix
 Rotate array by k elements -> Reverse entire array then first k elements then remaning elements 
 Two Sum -> Array(Not necessarily consecutive) of length two whose sum equals k -> HashMap 
 Length of longest consecutive sequence of numbers in array -> Set
+Union of two sorted arrays -> Two pointer approach
 
-String: 
+********************************String********************************** 
 Add binary
 Longest repeating character replacement -> Sliding window (Dynamic Size)
 Longest substring without repeating characters -> Sliding window (Dynamic Size)
