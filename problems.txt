@@ -6,11 +6,15 @@ Count subarray sum equal k (+ve) -> Sliding Window -> pending
 Longest subarray sum equals k (+ve) -> Sliding Window
 Longest subarry sum equals k (+ve/-ve) -> Prefix Sum
 
+Longest subarray sum equals 0(+ve/-ve) -> Prefix Sum
+Smallest subarray sum equals 0(+ve/-ve) -> Prefix Sum -> Pending
+Count subarrays sum equals 0(+ve/-ve) -> Prefix Sum -> Pending
+
 Smallest subarray with sum equals k (+ve) -> Pending
-Smallest subarray with sum equals k (+ve/-ve)
+Smallest subarray with sum equals k (+ve/-ve) -> Prefix Sum
 
 Total number of zero filled subarrays -> Count all zeros and apply formula
-Longest zero filled subarry
+Longest zero filled subarry -> Pending
 
 Smallest subarray with sum >= k -> Sliding window (Dynamic Size)
 Smallest subarray with sum <= k -> Pending 
@@ -21,7 +25,12 @@ Min sum of distinct subarray with length k -> Sliding window (Fixed Size)
 Contigous subarray whose length equals k which has max average value -> Sliding window (Fixed Size)
 Contigous subarray whose length equals k which has min average value -> Sliding window (Fixed Size) -> Pending
 
+Longest subarray with distinct elements -> Pending
+Smallest subarray with distinct elements -> Pending
+Count subarray with distinct elements -> Pending
+Subarray with distinct elements -> Pending
 Subarray sum equals k with distinct elements -> Pending
+
 Binary subarray with sum equals k -> Sliding window (Dynamic Size), Count 1's
 Count contigous subarrays with total number of odd nums equals k -> Sliding window (Dynamic Size), Count odd numbers
 Max consecutive ones -> Sliding window (Dynamic Size)
