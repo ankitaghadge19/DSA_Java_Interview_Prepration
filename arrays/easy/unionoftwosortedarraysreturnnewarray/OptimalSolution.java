@@ -101,8 +101,7 @@ public class OptimalSolution {
 //    and move both pointers.
 //
 // To avoid duplicates, before adding an element,
-// check whether it is different from the last inserted
-// element in the union.
+// check whether it is different from the last inserted element in the union.
 //
 // Why does checking only the last inserted element work?
 // Because both arrays are sorted. If a duplicate element
