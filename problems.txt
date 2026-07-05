@@ -45,7 +45,9 @@ Product of array except self -> Prefix Suffix
 Rotate array by k elements -> Reverse entire array then first k elements then remaning elements 
 Two Sum -> Array(Not necessarily consecutive) of length two whose sum equals k -> HashMap 
 Length of longest consecutive sequence of numbers in array -> Set
+
 Union of two sorted arrays -> Two pointer approach
+Merge two sorted arrays into frist array (In Place)
 
 ********************************String********************************** 
 Add binary
