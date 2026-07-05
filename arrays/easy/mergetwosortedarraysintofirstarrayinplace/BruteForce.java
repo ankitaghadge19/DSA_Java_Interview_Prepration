@@ -1,4 +1,4 @@
-package arrays.easy.mergesortedarraysinarrayonewithextraspace;
+package arrays.easy.mergetwosortedarraysintofirstarrayinplace;
 
 import java.util.Arrays;
 
