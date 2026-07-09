@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class Optimal {
     public static void main() {
-                   //  0  1  2  3  4  5
+        //  0  1  2  3  4  5
         int[] arr1 = { 1, 2, 3, 0, 0, 0 };
 
-                   //  0  1  2
+        //  0  1  2
         int[] arr2 = { 2, 5, 6 };
 
         int m = 3;
@@ -34,6 +34,11 @@ public class Optimal {
         System.out.println(Arrays.toString(arr1));
     }
 }
+// Without using extra space
+
+// TC: O(N)
+// SC: O(1)
+// Problem Link: https://leetcode.com/problems/merge-sorted-array/description/
 
 // *****Instead of using two if blocks use else block*****
 //      0 1 2 3 4 5   0 1 2
