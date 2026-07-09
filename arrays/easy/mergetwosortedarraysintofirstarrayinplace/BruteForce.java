@@ -51,6 +51,10 @@ public class BruteForce {
     }
 }
 
+// Using extra space
+// TC: O(N)
+// SC: O(N)
+
 // Why copy the remaining elements?
 //
 // The first while loop stops as soon as either arr1 or arr2 is exhausted.
@@ -58,7 +62,7 @@ public class BruteForce {
 // so we copy all of them.
 
 // Case 1: arr1 is exhausted
-// arr1 = [1 2 3]
+// arr1 = [1 2 3 _ _ _]
 // arr2 = [4 5 6]
 //
 // After first while loop:
@@ -74,7 +78,7 @@ public class BruteForce {
 // [1 2 3 4 5 6]
 
 // Case 2: arr2 is exhausted
-// arr1 = [4 5 6]
+// arr1 = [4 5 6 _ _ _]
 // arr2 = [1 2 3]
 //
 // After first while loop:
