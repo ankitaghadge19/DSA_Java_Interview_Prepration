@@ -38,6 +38,7 @@ Max consecutive ones -> Sliding window (Dynamic Size)
 Longest consecutive subarray with equal number of zero and one -> HashMap
 
 Find duplicate in array of n+1 integers -> Sorting
+Find repeating and missing number in array of 1 to n elements
 Nums that appears once and others twice -> XOR
 Majority elements -> Frequency of Nums
 Move zeros -> Swapping
@@ -47,7 +48,7 @@ Two Sum -> Array(Not necessarily consecutive) of length two whose sum equals k -
 Length of longest consecutive sequence of numbers in array -> Set
 
 Union of two sorted arrays -> Two pointer approach
-Merge two sorted arrays into frist array (In Place)
+Merge two sorted arrays into first array (In Place)
 
 ********************************String********************************** 
 Add binary
