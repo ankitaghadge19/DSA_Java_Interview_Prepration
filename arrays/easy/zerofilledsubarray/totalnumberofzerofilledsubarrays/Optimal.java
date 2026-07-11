@@ -1,5 +1,4 @@
-package arrays.medium.totalnumberofzerofilledsubarrays;
-public class OptimalSoln {
+public class Optimal {
     public static void main() {
         int[] nums = {1,3,0,0,2,0,0,4};
         // Output: 6
