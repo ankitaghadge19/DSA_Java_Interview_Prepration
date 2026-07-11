@@ -14,7 +14,7 @@ Smallest subarray with sum equals k (+ve) -> Pending
 Smallest subarray with sum equals k (+ve/-ve) -> Prefix Sum
 
 Total number of zero filled subarrays -> Count all zeros and apply formula
-Longest zero filled subarry -> Pending
+Longest zero filled subarry -> Count consecutive zeros, reset count whenever non zero element is found
 
 Smallest subarray with sum >= k -> Sliding window (Dynamic Size)
 Smallest subarray with sum <= k -> Pending 
