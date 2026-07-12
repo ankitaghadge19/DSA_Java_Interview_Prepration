@@ -25,9 +25,7 @@ Min sum of distinct subarray with length k -> Sliding window (Fixed Size)
 Contigous subarray whose length equals k which has max average value -> Sliding window (Fixed Size)
 Contigous subarray whose length equals k which has min average value -> Sliding window (Fixed Size) -> Pending
 
-Longest subarray with distinct elements -> Pending
-Smallest subarray with distinct elements -> Pending
-Count subarray with distinct elements -> Pending
+Longest subarray with distinct elements 
 Subarray sum equals k with distinct elements -> Pending
 
 Binary subarray with sum equals k -> Sliding window (Dynamic Size), Count 1's
