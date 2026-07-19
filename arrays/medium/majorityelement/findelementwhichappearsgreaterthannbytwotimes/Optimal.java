@@ -1,8 +1,8 @@
-package arrays.easy.majorityelements;
+package arrays.medium.majorityelement.findelementwhichappearsgreaterthannbytwotimes;
 
 public class Optimal {
     public static void main(String[] args) {
-        int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+        int[] nums = { 1, 1, 2, 2, 1, 2, 2 };
         int n = nums.length;
 
         int num = 0;

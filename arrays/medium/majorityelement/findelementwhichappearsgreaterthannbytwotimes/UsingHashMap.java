@@ -1,4 +1,4 @@
-package arrays.easy.majorityelements;
+package arrays.medium.majorityelement.findelementwhichappearsgreaterthannbytwotimes;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package arrays.easy.majorityelements;
+package arrays.medium.majorityelement.findelementwhichappearsgreaterthannbytwotimes;
 
 public class BruteForce {
     public static void main(String[] args) {
