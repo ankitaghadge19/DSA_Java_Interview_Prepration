@@ -47,12 +47,19 @@ Length of longest consecutive sequence of numbers in array -> Set
 Union of two sorted arrays -> Two pointer approach
 Merge two sorted arrays into first array (In Place)
 
+Find largest element in array -> Linear search
+
+Majority Element:
+Find element which appears greater than n by 2 times -> Cancel out one non targated element with targated element
+Find elements which appears greater than n by 3 times -> Cancel out one non targated element with 2 targated elements
+
 ********************************String********************************** 
 Add binary
 Longest repeating character replacement -> Sliding window (Dynamic Size)
 Longest substring without repeating characters -> Sliding window (Dynamic Size)
 Number of substring containing all three characters -> Sliding window (Dynamic Size)
 Find all anagramns in string -> Sliding window (Fixed Size)
+
 
 
 
