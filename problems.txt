@@ -14,6 +14,7 @@ Smallest subarray with sum equals k (+ve) -> Pending
 Smallest subarray with sum equals k (+ve/-ve) -> Prefix Sum
 
 Max product subarray -> Prefix(L -> R), Suffix(R -> L) Product
+Max sum subarray -> Prefix(L -> R)
 
 Total number of zero filled subarrays -> Count all zeros and apply formula
 Longest zero filled subarry -> Count consecutive zeros, reset count whenever non zero element is found
