@@ -34,6 +34,9 @@ public class Optimal {
     }
 }
 
+// TC: O(N)
+// SC: O(1)
+
 // Problem Link: https://leetcode.com/problems/maximum-product-subarray/description/
 
 // TC: O(N)
