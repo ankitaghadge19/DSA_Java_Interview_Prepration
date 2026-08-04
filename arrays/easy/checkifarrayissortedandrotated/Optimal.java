@@ -16,7 +16,7 @@ public class Optimal {
 
 // TC: O(N)
 // SC: O(1)
-// Problem Link:
+// Problem Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 
 // A sorted (or sorted and rotated) array has at most one drop.
 //
