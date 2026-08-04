@@ -50,6 +50,9 @@ Length of longest consecutive sequence of numbers in array -> Set
 Union of two sorted arrays -> Two pointer approach
 Merge two sorted arrays into first array (In Place)
 
+Check if array is sorted or not -> Comapre one by one
+Check if array is sorted and rotated -> Single drop
+
 Find largest element in array -> Linear search
 
 Majority Element:
