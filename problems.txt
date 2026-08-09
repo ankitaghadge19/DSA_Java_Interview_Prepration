@@ -39,6 +39,7 @@ Longest consecutive subarray with equal number of zero and one -> HashMap
 
 Find duplicate in array of n+1 integers -> Sorting
 Find repeating and missing number in array of 1 to n elements
+Find missing number -> Sum of 1 to n nums
 Nums that appears once and others twice -> XOR
 Majority elements -> Frequency of Nums
 Move zeros -> Swapping
@@ -58,6 +59,9 @@ Find largest element in array -> Linear search
 Majority Element:
 Find element which appears greater than n by 2 times -> Cancel out one non targated element with targated element
 Find elements which appears greater than n by 3 times -> Cancel out one non targated element with 2 targated elements
+
+Sort 0, 1 and 2 -> Count
+Remove duplicates from sorted array -> Two Pointer
 
 ********************************String********************************** 
 Add binary
