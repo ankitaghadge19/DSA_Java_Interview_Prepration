@@ -70,6 +70,9 @@ Longest substring without repeating characters -> Sliding window (Dynamic Size)
 Number of substring containing all three characters -> Sliding window (Dynamic Size)
 Find all anagramns in string -> Sliding window (Fixed Size)
 
+Valid Paranthesis
+Minimum to make valid paranthesis
+
 
 
 
