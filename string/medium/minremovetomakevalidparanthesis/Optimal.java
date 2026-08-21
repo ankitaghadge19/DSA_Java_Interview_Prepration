@@ -1,4 +1,4 @@
-package string.minremovetomakevalidparanthesis;
+package string.medium.minremovetomakevalidparanthesis;
 
 public class Optimal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package string.validparentheses;
+package string.easy.validparentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

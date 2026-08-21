@@ -1,4 +1,4 @@
-package string.minremovetomakevalidparanthesis;
+package string.medium.minremovetomakevalidparanthesis;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
