@@ -29,7 +29,7 @@ public class Optimal {
 // TC: O(N)
 // SC: O(1)
 
-// Problem Link: 
+// Problem Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/
 
 // Approach:
 // Since the array is sorted all duplicate elements are adjacent
