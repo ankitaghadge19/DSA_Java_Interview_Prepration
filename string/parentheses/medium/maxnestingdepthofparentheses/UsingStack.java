@@ -1,4 +1,4 @@
-package string.medium.maxnestingdepthofparentheses;
+package string.parentheses.medium.maxnestingdepthofparentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

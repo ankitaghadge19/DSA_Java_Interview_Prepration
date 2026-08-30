@@ -1,4 +1,4 @@
-package string.medium.maxnestingdepthofparentheses;
+package string.parentheses.medium.maxnestingdepthofparentheses;
 
 public class Optimal {
     public static void main(String[] args) {
