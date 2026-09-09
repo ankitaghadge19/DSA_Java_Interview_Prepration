@@ -41,7 +41,7 @@ public class Optimal {
 }
 
 // TC: O(N)
-// SC: O(N) (HashSet can strore up to N chars)
+// SC: O(N) (HashSet can store up to N chars)
 
 // Approach:
 // Sliding Window + HashSet
