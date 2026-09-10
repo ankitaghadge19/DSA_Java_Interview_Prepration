@@ -1,4 +1,4 @@
-package string.easy.ReverseWordsInString;
+package string.easy.reversewordsinsstring;
 
 import java.util.ArrayList;
 import java.util.List;
