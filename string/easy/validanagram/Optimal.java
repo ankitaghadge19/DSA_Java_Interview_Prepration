@@ -34,7 +34,7 @@ public class Optimal {
 // Two words are anagrams if they conatins exactly same chars with exactly same frequency but order can be different.
 
 // Approach:
-// Find the frequensy of each char of first string
+// Find the frequency of each char of first string
 // Store how many times each character appears
 // Traverse second string
 // Second string should also contain the same characters with the same frequency as the first string
