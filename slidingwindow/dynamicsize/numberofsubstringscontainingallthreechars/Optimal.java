@@ -29,7 +29,6 @@ public class Optimal {
                 // find leftmost possible starting position that still include all three chars
                 // which will be min(lastA, lastB, lastC)
                 count += Math.min(lastA, Math.min(lastC, lastB)) + 1;
-
             }
 
         }
