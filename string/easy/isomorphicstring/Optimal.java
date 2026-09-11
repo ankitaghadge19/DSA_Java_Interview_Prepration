@@ -71,5 +71,5 @@ public class Optimal {
 // TC: O(N) for a fixed character set
 // SC: O(N)
 
-// Problem Link:
+// Problem Link: https://leetcode.com/problems/isomorphic-strings/description/
 
