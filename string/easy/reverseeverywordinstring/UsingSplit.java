@@ -1,4 +1,4 @@
-package string.easy.reversewordsinsstring;
+package string.easy.reverseeverywordinstring;
 
 public class UsingSplit {
     public static void main(String[] args) {
