@@ -22,3 +22,11 @@ public class Optimal {
 
 // Note: If one string is rotation of another,
 // then it will always appear inside original string conacatenated with itself
+
+// str + str -> O(N)
+// conatins(goal) -> O(N)
+
+// TC: O(N)
+// SC: O(N) -> Concatenated string stores 2N chars
+
+// Problem Link: https://leetcode.com/problems/rotate-string/description/
