@@ -1,4 +1,4 @@
-package string.easy.rotatestring;
+package string.easy.checkifgoalstringcanbeformedbyrotatinginpustring;
 
 public class BruteForce {
     public static void main(String[] args) {
