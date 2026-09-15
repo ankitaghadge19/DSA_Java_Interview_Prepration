@@ -2,7 +2,7 @@ package slidingwindow.dynamicsize.numberofsubstringscontainingallthreechars;
 
 import java.util.Arrays;
 
-public class BruteForce {
+public class BruteForce2 {
     public static void main() {
         String str = "bbacba";
 
