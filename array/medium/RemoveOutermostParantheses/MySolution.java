@@ -1,4 +1,4 @@
-package array.medium.RemoveOutermostParantheses;
+package array.medium.removeoutermostparantheses;
 
 import java.util.ArrayList;
 import java.util.List;

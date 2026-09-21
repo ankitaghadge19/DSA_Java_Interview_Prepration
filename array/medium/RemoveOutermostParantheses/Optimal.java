@@ -1,4 +1,4 @@
-package array.medium.RemoveOutermostParantheses;
+package array.medium.removeoutermostparantheses;
 
 public class Optimal {
     public static void main(String[] args) {
