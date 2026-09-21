@@ -1,4 +1,4 @@
-package string.medium.topkfrequentelements;
+package sorting.findtopkfrequentnums;
 
 import java.util.ArrayList;
 import java.util.Arrays;
