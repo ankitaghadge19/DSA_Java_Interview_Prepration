@@ -19,6 +19,8 @@ public class Optimal {
 
         // XOR all chars of s
         for (char ch : s.toCharArray()) {
+            // XOR convert char into int and perform the operation and result will be int
+            // Result of XOR is in int, cant directly converted into char so typecast it to char
             result = (char) (result ^ ch);
         }
 
